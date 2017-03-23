@@ -1,7 +1,6 @@
 #BlueJ class context
 comment0.target=BadWorld
-comment0.text=\r\n\ Name\:\ (Risto\ Zimbakov)\r\n\ Teacher\:\ Mr.\ Hardman\r\n\ Assignment\ \#2,\ Explosion\r\n
+comment0.text=\r\n\ Name\:\ (Risto\ Zimbakov)\r\n\ Teacher\:\ Mr.\ Hardman\r\n\ Assignment\ \#2,\ Explosion\r\n\ Date\ Last\ Modified\:\ 3/20/2017\r\n
 comment1.params=
 comment1.target=BadWorld()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BadWorld.\r\n\ \r\n
 numComments=2

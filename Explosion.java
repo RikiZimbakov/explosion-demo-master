@@ -1,12 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
 
-/**
- * An explosion. It starts by expanding and then collapsing. 
- * The explosion will explode other obejcts that the explosion intersects.
- * 
- * @author Poul Henriksen
- * @version 1.0.1
- */
 public class Explosion extends Actor
 {
     private final static int IMAGE_COUNT = 12;
@@ -19,9 +12,6 @@ public class Explosion extends Actor
 
     private int actCycles = 0;
 
-    /**
-     * Explosion is the constructor for our explosion objects
-     */
     public Explosion()
     {
         initializeImages();
@@ -54,7 +44,7 @@ public class Explosion extends Actor
     }
 
     /**
-     * Act will cause to increase in size until it hits maximum size 
+     * Act will cause explosion to increase in size until it hits maximum size 
      * then it will decrease in size until it reaches its minimum
      * once this occurs it will continue explosion forever because that is the most realistic way possible
      * 
